@@ -5,7 +5,7 @@
   1. Clone the Repo.
   2. Run `$ npm run setup` to install all the things and init Android/iOS.
   3. Run `$ npm test` in another terminal tab of the root directory to see tests.
-  4. Navigate to [localhost:8100/#/tab/hello] in a browser tab to view project. Enable mobile view in Chrome Dev tools
+  4. Navigate to (localhost:8100/#/tab/hello) in a browser tab to view project. Enable mobile view in Chrome Dev tools
 
 ## Using Ionic to Emulate iOS and Android ##
 
