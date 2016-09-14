@@ -23,5 +23,5 @@ angular.module('hello')
       }
     }
   });
-  $urlRouterProvider.otherwise('tab.hello');
+  $urlRouterProvider.otherwise('tab/hello');
 })
