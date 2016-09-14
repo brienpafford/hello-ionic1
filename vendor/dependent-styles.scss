@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+@import
+  // Global variables for the project are defined here because...
+  'app-styles',
+  //'../bower_components/ui-select/dist/select',
+  // Ionic defines all variables with !default
+  // so as not to override any previously defined variables
+  '../bower_components/ionic/scss/ionic';
+  // Currently this is the only way to separate the styles
+  // into folders by feature and still have the proper compilation.

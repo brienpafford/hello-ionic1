@@ -1,0 +1,18 @@
+{
+  "name": "hello-mobile",
+  "private": "false",
+  "authors": [
+    "Brien Pafford <bcpaff@gmail.com>",
+    "Austin Erlandson <austin@erlandson.com>"
+  ],
+  "dependencies": {
+    "angular": "~1.4.7",
+    "angular-mocks": "~1.4.7",
+    "ngCordova": "~0.1.27-alpha",
+    "core": "~0.0.9",
+    "ionic": "~1.3.1"
+  },
+  "resolutions": {
+    "angular": "~1.4.7"
+  }
+}

@@ -1,0 +1,35 @@
+echo
+echo "** Cleaning folders **"
+echo
+rm -rf node_modules
+rm -rf bower_components
+rm -rf www
+rm -rf platforms
+rm -rf plugins
+echo
+echo "** Installing Node Modules **"
+echo
+npm i
+echo
+echo "** Installing Bower Components **"
+echo
+bower i
+echo
+echo "** Compile with Brunch **"
+echo
+brunch build --production
+echo
+echo "** Restoring Ionic State **"
+echo
+ionic state reset
+echo
+echo "** Generating Ionic Resources **"
+echo
+ionic resources
+echo
+echo "** Starting Brunch Server **"
+echo
+npm start
+echo
+echo "** App Served to localhost:8100 **"
+echo
