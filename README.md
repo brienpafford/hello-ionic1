@@ -25,3 +25,7 @@
 
   - Write e2e UI tests with Jasmine, and run them with Protractor. Config lives in the protractor.conf.js file.
   - Each test file will live in the test/e2e folder. This is because the e2e tests should flow logically from one to another, and can be nested to help with this as the project grows.
+
+## Screencap ##
+
+<img width="376" alt="screen shot 2016-09-14 at 1 04 48 am" src="https://cloud.githubusercontent.com/assets/10601340/18501588/463559a2-7a17-11e6-8e23-0e1f0006ea50.png">
