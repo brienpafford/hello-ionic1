@@ -1,3 +1,17 @@
-app/constants/server.const.js
-app/constants/version.const.js
-app/constants/production/server.const.js
+# Specifies intentionally untracked files to ignore when using Git
+# http://git-scm.com/docs/gitignore
+
+.DS_Store
+.idea/
+node_modules/
+bower_components/
+www/
+app/assets/fonts
+app/constants/
+platforms/
+resources/android
+resources/ios
+plugins/
+coverage
+reports
+npm-debug.log
